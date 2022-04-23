@@ -1,7 +1,7 @@
 const {Telegraf} = require('telegraf')
 const utils = require("./Utils")
 
-const bot = new Telegraf("5365170738:AAEtN-q4MUd9lptYWoYxebIrq_MPZR3s3l4")
+const bot = new Telegraf("TOKEN")
 
 bot.start((ctx) => {
     ctx.reply("Bu bot sizga \"lyuboy\" videoni tiktokdan \"skachat\" qilib beradi.\n" +
